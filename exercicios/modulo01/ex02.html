@@ -1,0 +1,27 @@
+<html>
+
+<head>
+
+<body>
+    <title>Curso JavaScript - Ex01</title>
+</body>
+<script>
+    function getPares(numIni, numFim) {
+        if (numIni > numFim) {
+            console.log("O número inicial informado deve ser menor que o número final!");
+        } else {
+            var i = numIni;
+            while (i <= numFim) {
+                if (i % 2 == 0) {
+                    console.log(i);
+                }
+                i++;
+            }
+        }
+    }
+
+    getPares(0, 10);
+</script>
+</head>
+
+</html>
