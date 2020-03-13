@@ -1,0 +1,27 @@
+<html>
+
+<head>
+
+<body>
+    <title>Curso JavaScript - Ex01</title>
+</body>
+<script>
+    function verificaExperiencia(anos) {
+        if (anos >= 0 && anos <= 1) {
+            console.log("Iniciante");
+        } else if (anos > 1 && anos <= 3) {
+            console.log("Intermediário");
+        } else if (anos > 3 && anos <= 6) {
+            console.log("Avançado");
+        } else if (anos >= 7) {
+            console.log("Intermediário");
+        } else {
+            console.log("Indeterminado");
+        }
+    }
+    var anosDeEstudo = 6;
+    verificaExperiencia(anosDeEstudo);
+</script>
+</head>
+
+</html>
